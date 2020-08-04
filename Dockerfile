@@ -42,4 +42,4 @@ EXPOSE 10999/udp
 EXPOSE 10998/udp
 
 WORKDIR /root/DST/bin
-CMD "/root/DST/bin/start.sh"
+CMD "/root/DST/bin/start.sh" 
