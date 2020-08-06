@@ -26,7 +26,6 @@ RUN set -x \
         +app_update 343050  validate \
         +quit \
     && apt-get remove --purge -y wget \
-        ca-certificates \
     && apt-get clean autoclean \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
@@ -40,6 +39,7 @@ RUN cd /root/DST/bin \
 VOLUME /root/.klei/DoNotStarveTogether/Cluster_1
 VOLUME /root/DST/mods
 
+EXPOSE 10889/udp
 EXPOSE 10999/udp
 EXPOSE 10998/udp
 
