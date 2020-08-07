@@ -13,10 +13,9 @@ RUN set -x \
         libcurl4-gnutls-dev:i386 \
         wget \
         ca-certificates \
+        vim \
     && mkdir -p /root/DST \
     && mkdir -p /root/steamcmd \
-    && mkdir -p /root/.klei/DoNotStarveTogether/Cluster_1 \
-    && mkdir -p /root/DST/mods \
     && cd /root/steamcmd \
     && wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz \
     && tar -zxvf steamcmd_linux.tar.gz \
