@@ -187,8 +187,8 @@ docker logs -t -f --tail 10 dst
 ## dst 对应自己设置的--name
 ```
         
-### 最终结果
-![主从服务器测试结果](/pict/DST%20server.png)
+### 1.4.5. 最终结果
+![主从服务器测试结果](https://github.com/yanxin152133/docker-dst-customize/blob/master/pict/DST%20server.png)
        
 查看网址：    
 [Don't Starve Together Server List](https://dstserverlist.appspot.com/)
