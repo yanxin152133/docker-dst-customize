@@ -1,0 +1,86 @@
+return {
+  ["workshop-1185229307"]={ configuration_options={ distance=20, timeout=10 }, enabled=true },
+  ["workshop-1200745268"]={
+    configuration_options={
+      Animal=true,
+      BuildRepair=true,
+      ChopTime=1,
+      CookTime=0,
+      FishTime=0,
+      HSHU=true,
+      MineTime=1,
+      Others=true,
+      Pick=true,
+      QuickDry=true,
+      QuickGrow=0 
+    },
+    enabled=true 
+  },
+  ["workshop-1301033176"]={ configuration_options={ LANG="auto" }, enabled=true },
+  ["workshop-1609069355"]={
+    configuration_options={
+      MessageLength="big",
+      MessageWhen="spawn",
+      WindowStyle="light",
+      WindowTheme="original",
+      welcome_message="welcome \
+\
+多层世界\
+\
+qq:1282102149\
+",
+      welcome_message_title="Default_Title" 
+    },
+    enabled=true 
+  },
+  ["workshop-1817697604"]={ configuration_options={ WorldName="DST server" }, enabled=true },
+  ["workshop-378160973"]={
+    configuration_options={
+      ENABLEPINGS=true,
+      FIREOPTIONS=2,
+      OVERRIDEMODE=false,
+      SHAREMINIMAPPROGRESS=true,
+      SHOWFIREICONS=true,
+      SHOWPLAYERICONS=true,
+      SHOWPLAYERSOPTIONS=2 
+    },
+    enabled=true 
+  },
+  ["workshop-444235588"]={
+    configuration_options={
+      deluxeEndoFirepitBurnRate=0.75,
+      deluxeFirepitBurnRate=0.75,
+      dropLoot="yes",
+      endoDropLoot="yes",
+      heatStarBurnRate=0.9,
+      heatStarDropLoot="yes",
+      iceStarBurnRate=0.9,
+      iceStarDropLoot="yes",
+      recipeCost="standard",
+      starsSpawnHounds="no" 
+    },
+    enabled=true 
+  },
+  ["workshop-458587300"]={ configuration_options={ Ownership=false, Travel_Cost=32 }, enabled=true },
+  ["workshop-462434129"]={
+    configuration_options={
+      MOD_RESTART_ALLOW_KILL=true,
+      MOD_RESTART_ALLOW_RESTART=true,
+      MOD_RESTART_ALLOW_RESURRECT=true,
+      MOD_RESTART_CD_BONUS=0,
+      MOD_RESTART_CD_KILL=3,
+      MOD_RESTART_CD_MAX=0,
+      MOD_RESTART_CD_RESTART=5,
+      MOD_RESTART_CD_RESURRECT=7,
+      MOD_RESTART_FORCE_DROP_MODE=0,
+      MOD_RESTART_IGNORING_ADMIN=true,
+      MOD_RESTART_MAP_SAVE=2,
+      MOD_RESTART_RESURRECT_HEALTH=0,
+      MOD_RESTART_TRIGGER_MODE=1,
+      MOD_RESTART_WELCOME_TIPS=true,
+      MOD_RESTART_WELCOME_TIPS_TIME=6 
+    },
+    enabled=true 
+  },
+  ["workshop-934638020"]={ configuration_options={  }, enabled=true } 
+}
