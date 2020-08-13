@@ -1,6 +1,9 @@
 # 1. 饥荒专用服务器
 服务器资源文件独立保存在容器之外，方便修改服务器配置。
 
+- [docker-dst](https://github.com/yanxin152133/docker-dst)
+- [docker-dst-customize](https://github.com/yanxin152133/docker-dst-customize)
+
 ## 1.1. 安装Docker
 安装步骤参考以下链接：     
 - [docker安装](https://yanxin152133.github.io/notes/#/notes/Docker/%E6%95%99%E7%A8%8B/Docker%E5%AE%89%E8%A3%85)
@@ -55,6 +58,7 @@ cluster_name = ttionya test        # 游戏房间名称
 cluster_description = description  # 游戏房间描述
 lan_only_cluster = false           # 局域网游戏
 cluster_intention = madness        # 游戏偏好，可选 cooperative, competitive, social, or madness，随便设置，没卵用
+autosaver_enabled = true           # 自动保存
  
 [GAMEPLAY]
 max_players = 16                   # 最大游戏人数
