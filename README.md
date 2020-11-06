@@ -196,3 +196,10 @@ docker logs -t -f --tail 10 dst
        
 查看网址：    
 [Don't Starve Together Server List](https://dstserverlist.appspot.com/)
+
+### 复制粘贴文章的请注意这个地方
+先参考下这个，再去复制粘贴。
+      
+- [docker-dst](https://github.com/yanxin152133/docker-dst)
+         
+token文件都不替换你还玩什么服务器。
